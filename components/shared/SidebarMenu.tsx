@@ -40,7 +40,7 @@ import {
   vehicleCategories,
 } from "@/constants/getdata";
 import { cn } from "@/lib/utils";
-import { Footer } from "./Footer";
+import { Footer } from "@/components/shared/Footer";
 
 export default function ExamApp() {
   const [selectedVehicle, setSelectedVehicle] = useState<string | null>(null);
